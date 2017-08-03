@@ -12,12 +12,24 @@ public class AbstracaoEncapsulamento {
      */
     public static void main(String[] args) {
         Aluno joao = new Aluno();
-        joao.setIdade(12);
-        System.out.println(joao.getIdade());
-        joao.setMatricula("696969");
-        System.out.println(joao.getMatricula());
-        joao.setMatricula("696dasdsada969");
-        System.out.println(joao.getMatricula());
+        { 
+            joao.setIdade(12);
+            System.out.println(joao.getIdade());
+            joao.setMatricula("696969");
+            System.out.println(joao.getMatricula());
+            joao.setMatricula("696dasdsada969");
+            System.out.println(joao.getMatricula());
+        }
+        
+        Pessoa jose = new Pessoa();
+        {
+            jose.setNome("José");
+            System.out.println(jose.getNome());
+            jose.setNome("Jos213213213é2");
+            System.out.println(jose.getNome());
+        }
+        
+       
     }
     
 }
