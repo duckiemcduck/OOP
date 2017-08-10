@@ -3,7 +3,8 @@ public class Aluno {
     private String nome;
     private char sexo;
     private double nota;
-
+    private double piroca=1000;
+    
     public char getSexo() {
         return sexo;
     }
@@ -36,8 +37,13 @@ public class Aluno {
     public String getNome() {
         return nome;
     }
-
+    public String toString()
+    {
+        return Double.toString(this.piroca);
+    }
     public void setNome(String nome) {
+        if((nome==null) || (nome.charAt(0) == ' ' )) 
+            return;
         this.nome = nome;
     }
 }
