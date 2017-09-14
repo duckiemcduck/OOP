@@ -27,7 +27,7 @@ public class LucasBandeira {
         //pacote2.main(args);
         //pacote3.main(args);
         //pacote4.main(args);
-        pacote5.main(args);
+        //pacote5.main(args);
     }
     
 }
