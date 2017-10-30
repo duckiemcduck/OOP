@@ -2,7 +2,7 @@
 package desafio2;
 public class Desafio2 {
     public static void main(String[] args) {
-        Interface console = new Interface();
+        /*Interface console = new Interface();
         OperaPessoa operador = new OperaPessoa();
         int quantidade;
         
@@ -15,7 +15,7 @@ public class Desafio2 {
         operador.imprimirPessoas();
         console.log("Pessoa mais nova: " + operador.retornarMaisNova().getNome());
         console.log("Pessoa mais velha: " + operador.retornarMaisVelha().getNome());
-        console.log("Idade Mediana:" + operador.retornarIdadeMedia());
+        console.log("Idade Mediana:" + operador.retornarIdadeMedia());*/
     }
     
 }

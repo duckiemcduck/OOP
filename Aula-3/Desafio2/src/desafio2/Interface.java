@@ -20,16 +20,19 @@ public class Interface {
     {
         return Integer.parseInt(JOptionPane.showInputDialog(mensagem));
     }
-    void log(int mensagem)
+    String log(int mensagem)
     {
         System.out.println(Integer.toString(mensagem));
+        return Integer.toString(mensagem) + "\n";
     }
-    void log(double mensagem)
+    String log(double mensagem)
     {
         System.out.println(Double.toString(mensagem));
+        return Double.toString(mensagem) + "\n";
     }
-    void log(String mensagem)
+    String log(String mensagem)
     {
         System.out.println(mensagem);
+        return mensagem + "\n";
     }
 }
